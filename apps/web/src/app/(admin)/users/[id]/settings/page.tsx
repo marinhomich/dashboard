@@ -1,7 +1,7 @@
 import { notFound, redirect } from "next/navigation"
 
 import { getSession } from "@/lib/auth"
-import prisma from "@/lib/prisma"
+import prisma from "@/lib/prisma";
 import Container from "@/components/Container"
 
 export default async function SettingsUserPage({
